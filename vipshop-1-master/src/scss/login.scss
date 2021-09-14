@@ -1,0 +1,440 @@
+header{
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  margin-left: auto;
+margin-right: auto;
+}
+header .wep-head{
+width: 1000px;
+height: 100px;
+margin: 0 auto;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+}
+header .wep-head .wep-hui a{
+  position: absolute;
+  width: 125px;
+  height: 100px;
+  background: url(/images/wei-jin.png);
+  background-position: -308px -57px;
+  display: inline-block;
+}
+header .wep-head .wep-baoz{
+  width:304px ;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  right:0px;
+  background: url(/images/wei-jin.png);
+  background-position:0  0;
+}
+main{
+  width: 100%;
+  height: 625px;
+  background: url(/images/1607915393371.jpg)no-repeat center;
+}
+main .login-m{
+  width: 1000px;
+  min-height: 550px;
+  padding: 50px 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+main .login-m .login{
+  width: 360px;
+  min-height: 465px;
+  float: right;
+  background-color: #fff;
+}
+main .login-m .login .deng{
+  min-height: 314px;
+  width: 360px;
+}
+main .login-m .login .deng .tab{
+  width: 100%;
+  height: 49px;
+  border-bottom: 1px solid #e0e0e0;
+}
+main .login-m .login .deng .tab .shaom{
+  width: 180px;
+  height: 50px;
+  float: left;
+}
+main .login-m .login .deng .tab .shaom{
+  width: 179px;
+  height: 50px;
+  float: left;
+}main .login-m .login .deng .tab .zhangh{
+  width: 179px;
+  height: 50px;
+  float: left;
+}
+main .login-m .login .deng .tab .fen{
+  float: left;
+  width: 1px;
+  height: 25px;
+  margin-top: 15px;
+  background-color:#cccccc ;
+}
+main .login-m .login .deng .tab .shaom p{
+  height:20px;
+  font-size:20px ;
+  font-weight: 900;
+  width: 100%;
+  line-height: 49px;
+  text-align: center;
+  display: block;
+  color: #f10180;
+  cursor:default;
+}
+main .login-m .login .deng .tab .zhangh p{
+  height:20px;
+  font-size:20px ;
+  font-weight: 900;
+  width: 100%;
+  line-height: 49px;
+  text-align: center;
+  display: block;
+  color: #666666;
+  cursor: pointer;
+}
+main .login-m .login .deng .tab .zhangh p:hover{
+  color: #f10180;
+}
+main .login-m .login .deng .tab .shaom p:hover{
+  color: #f10180;
+}
+/* 二维码与登录账号的切换 */
+.qd{
+  width: 100%;
+  min-height: 260px;
+  position: relative;
+  display: block;
+}
+.qd .ewm{
+  width: 100%;
+  min-height: 192px;
+  display: block;
+  position: absolute;
+  top: 36px;
+  margin: auto;
+}
+/* 二维码左移 */
+.qd .ewm .kuang{
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0px;
+  bottom: 0;
+  margin: auto;
+  width: 172px;
+  height: 172px;
+  display: block;
+  border: 1px solid #f0f0f0;
+}
+.qd .ewm .kuang img{
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+/* 弹出手机提示 */
+.qd .ewm .sj{
+  width: 120px;
+  height: 192px;
+  position: absolute;
+  right:30px;
+  margin: auto;
+  background: url(/images/wei-jin.png);
+  background-position:0 -104px;
+  display: none;
+  opacity: 0;
+}
+.qd .zh{
+  width: 100%;
+  min-height: 260px;
+  display: none;
+  position: absolute;
+}
+.qd .tis{
+  width: 100%;
+  height: 16px;
+  position: absolute; 
+  bottom: 0;
+  margin: 0 auto;
+}
+.qd .tis p{
+  width: 100%;
+  height: 100%;
+  font-size: 13px;
+  text-align: center;
+}
+.qd .tis a{
+  width: 15px;
+  height: 16px;
+  background: url(/images/wei-jin.png);
+  background-position:-601px -121px ;
+  display: block;
+  float: left;
+  left: 50px;
+  margin: auto;
+  position: absolute;
+  padding-left: 5px;
+}
+.qd .tis p span{
+  color: #f101a1;
+}
+.bxin{
+  width: 360px;
+  height: 270px;
+  position: relative;
+  display: none;
+}
+.zhdl{
+  width: 300px;
+  margin-left: auto;
+  height: 270px;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+.zhdl .z{
+  width: 100%;
+  height:67px ;
+  margin-top: 40px;
+  position: relative;
+  
+}
+.zhdl .z .shou{
+  border: 1px solid #b2b2b2;
+  height: 46px;
+  position: relative;
+}
+.zhdl .z .shou input{
+  position: absolute;
+  right: 1px;
+  margin: auto;
+  width: 248px;
+  height: 32px;
+  padding: 6px 10px;
+  line-height: 32px;
+  padding-left: 38px;
+  
+}
+.zhdl .z .shou span{
+  width: 20px;
+  height:20px ;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  left:8px;
+  top: 10px;
+  margin: auto;
+  background: url(/images/wei-jin.png);
+  background-position:-504px -221px;
+}
+.zhdl .m .mi input{
+  position: absolute;
+  right: 1px;
+  margin: auto;
+  width: 248px;
+  height: 32px;
+  padding: 6px 10px;
+  line-height: 32px;
+  padding-left: 38px;
+  
+}
+.zhdl .m {
+  width: 100%;
+  height: 67px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}
+.zhdl .m .mi{
+  border: 1px solid #b2b2b2;
+  height: 46px;
+
+}
+.zhdl .m .mi span{
+  width: 20px;
+  height:20px ;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  left:9px;
+  top: 11px;
+  margin: auto;
+  background: url(/images/wei-jin.png);
+  background-position:-528px -221px;
+}
+.zhdl .zduanx {
+  width: 300px;
+  height: 41px;
+  position: absolute;
+  bottom: 47px;
+  margin: auto;
+}
+.zhdl .zduanx span{
+  float: left;
+  font-size: 15px;
+}
+.zhdl .zduanx p{
+  float: right;
+  font-size: 13px;
+}
+.denl-btn{
+  width: 100%;
+  height:46px;
+  position: absolute;
+  margin: auto;
+  bottom: 0px;
+  background-color:#f10180 ;
+  border-radius: 3px;
+}
+.denl-btn:hover{
+  background: #f43499;
+}
+.denl-btn button{
+  border: none;
+  background: none;
+  width: 100%;
+  height: 100%;
+}
+.denl-btn button span{
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  font-size: 18px;
+}
+.zhdl  input{
+  border: none;
+}
+.login .fangs{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.login .fangs .fangs-xin {
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.login .fangs .fangs-xin .weix{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.login .fangs .fangs-xin .weix .xian{
+  width: 100%;
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  background-color: #e0e0e0;
+}
+.login .fangs .fangs-xin .weix .weijin{
+  width: 60px; 
+  height: 40px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  background: #fff;
+}
+.login .fangs .fangs-xin .weix .weijin .jinlw{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: url(/images/wei-jin.png);
+  background-position:-580px -161px;
+}
+.fangs .dlfs{
+  width: 100%;
+}
+.fangs .dlfs ul{
+  float: left;
+}
+.fangs .dlfs ul li{
+  float: left;
+  height: 25px;
+}
+.fangs .dlfs ul li a{
+  color:black;
+  font-size: 13px;
+}
+.fangs .dlfs ul li:nth-child(1) a{
+  color: #999999 ;
+  font-size: 13px;
+}
+.fangs .dlfs ul span{
+  width: 1px;
+  height: 16px;
+  display: block;
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+  background-color: #e0e0e0;
+}
+.fangs .dlfs .zhuc{
+  float: right;
+}
+.fangs .dlfs p{
+  color: #999999;
+  width: 40px;
+  font-size: 13px;
+  margin-left: 20px;
+  display: inline-block;
+}
+.fangs .dlfs ul li:nth-child(3) a:hover{
+  color:#f10180 ;
+  cursor: pointer;
+}
+.fangs .dlfs ul li:nth-child(5) a:hover{
+  color:#f10180 ;
+  cursor: pointer;
+}
+.fangs .dlfs p:hover{
+  color: #666666;
+  cursor: pointer;
+}
+.fangs .dlfs .zhuc:hover{
+  color:#f10180 ;
+  cursor: pointer;
+}
+.foot{
+  width: 1000px;
+  height: 78px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+}
+.foot p{
+  width: 100%;
+  height: 100%;
+  line-height: 78px;
+  text-align: center;
+  font-size: 13px;
+}

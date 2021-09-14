@@ -1,0 +1,187 @@
+header{
+  margin-bottom: 30px;
+  width: 100%;
+  height: 78px;
+  background-color: #fff;
+  border-bottom: 2px solid #f3168a;
+}
+header .xing{
+width: 960px;
+margin: auto;
+height: 100%;
+position: relative;
+}
+header .xing .gwd{
+  width: 214px;
+  height: 48px;
+  float: left;
+  position: absolute;
+  left: 0;
+  top:0;
+  bottom: 0;
+  margin: auto;
+}
+header .xing .fuw{
+  float: right;
+  padding-top: 10px;
+  padding-right: 5px;
+  height: 18px;
+  color: grey;
+}
+header .xing .fuw li{
+  float: left;
+  padding-left:8px ;
+  padding-right: 12px;
+  font-size: 12px;
+  
+}
+header .xing .fuw li a{
+line-height: 26px;
+  text-align: center;
+}
+header .xing .fuw li:nth-child(1) p{
+  background: url(/images/sprites-hash-29a8cdc6.png)no-repeat;
+  background-position: -372px -253px;
+  width: 26px;
+  height: 26px;
+  float: right;
+}
+header .xing .fuw span{
+  width: 1px;
+  height: 12px;
+  background-color:#666 ;
+  float: left;
+  display: block;
+  margin-top: 6px;
+}
+header .xing .nh{
+  position: absolute;
+  right: 30px;
+  bottom: 14px;
+  z-index: 1;
+  height: 20px;
+}
+header .xing .nh li{
+  float: left;
+  padding-left: 20px;
+  font-size: 12px;
+}
+header .xing .nh li p{
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 10px;
+}
+header .xing .nh li:nth-child(1) p{
+  background: url(/images/sprites-hash-29a8cdc6.png);
+  background-position: -587px -145px;
+}
+
+header .xing .nh li:nth-child(2) p{
+  background: url(/images/sprites-hash-29a8cdc6.png);
+  background-position:-432px -253px;
+}
+header .xing .nh li:nth-child(3) p{
+  background: url(/images/sprites-hash-29a8cdc6.png);
+  background-position: -587px -169px;
+}
+main{
+  width: 960px;
+  height: 700px;
+  margin: auto;
+}
+main .temsp{
+  border-bottom: 1px solid #d0d0d0;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+main .temsp a{
+  bottom: -1px;
+  display: inline-block;
+  font-size: 16px;
+  padding: 15px 10px;
+  margin-right: 10px;
+  color: #f10180;
+  padding-bottom: 12px;
+  border-bottom: 3px solid #f10180;
+}
+main .pes{
+  margin-bottom: 30px;
+  float: left;
+}
+main .pes .zhi{
+  font-size: 18px;
+  vertical-align: bottom;
+  height: 25px;
+  max-width: 460px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  white-space: nowrap;
+}
+main .pes .zhi em{
+  font-weight: 600;
+  font-style: normal;
+}
+main .shu{
+  width: 1px;
+  height: 19px;
+  background-color: #666;
+  float: left;
+  display: block;
+  margin-top: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+main .lie{
+  float: left;
+  width: 960px;
+  height:38px;
+  line-height: 38px;
+  border: 1px solid #e0e0e0;
+  background-color: #f9f9f9;
+}
+main .lie li{
+  float: left;
+  text-align: center;
+  font-size: 14px;
+}
+main .lie li:nth-child(1){
+  width: 348px;
+  height: 100%;
+  padding-left: 15px;
+}
+main .lie li:nth-child(2){
+  width: 274px;
+  height: 100%;
+}
+main .lie li:nth-child(3){
+  width: 160px;
+  height: 100%;
+}
+main .lie li:nth-child(4){
+  width: 174px;
+  height: 100%;
+}
+main .gwcsp{
+  float: left;
+  width: 960px;
+}
+main .gwcsp .ziy{
+  font-family: MicrosoftYaHei;
+  font-size: 16px;
+  color: #f10180;
+  width: 960px;
+  float: left;
+  padding: 20px 15px 16px 15px;
+}
+main .gwcsp .jingr{
+border: 1px solid #666;
+float: left;
+width: 960px;
+}
+main .gwcsp .jingr .item{
+  padding-bottom: 10px;
+  display: block;
+}

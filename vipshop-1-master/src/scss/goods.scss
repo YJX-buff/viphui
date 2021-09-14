@@ -1,0 +1,1217 @@
+nav {
+  min-width: 100%;
+  background: #f5f5f5;
+  width: 30px;
+}
+
+nav .nav-xin {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  height: 28px;
+  position: relative;
+  text-align: center;
+  line-height: 27px;
+  font-size: 13px;
+}
+
+nav .nav-xin .diz {
+  width: 86px;
+  height: 28px;
+  position: relative;
+  float: left;
+}
+
+nav .nav-xin .diz a {
+  padding-left: 15px;
+  padding-right: 23px;
+  width: 77px;
+  height: 27px;
+  cursor: pointer;
+  display: block;
+  float: left;
+}
+
+nav .nav-xin .diz .xiaotb {
+  background: url(/images/index-jin.png);
+  width: 0px;
+  height: 0px;
+  display: inline-block;
+  position: absolute;
+  right: -8px;
+  top: 11px;
+  border-width: 6px;
+  margin: auto;
+  border-color: #999 transparent transparent transparent;
+  border-style: solid dashed dotted dashed;
+  vertical-align: top;
+}
+
+nav .nav-xin ul {
+  float: right;
+}
+
+nav .nav-xin ul li {
+  float: left;
+  height: 28px;
+  padding-left: 8px
+}
+
+nav .nav-xin ul li a {
+  padding-right: 4px;
+}
+
+nav .nav-xin ul li .ico-dis {
+  width: 0;
+  height: 0;
+  line-height: 0;
+  vertical-align: middle;
+  border-width: 4px;
+  border-color: #999 transparent transparent transparent;
+  border-style: solid dashed dotted dashed;
+  display: inline-block;
+}
+
+nav .nav-xin ul span {
+  float: left;
+  background: url(/images/index-jin.png);
+  background-position: -207px -184px;
+  width: 16px;
+  height: 16px;
+  margin-top: 6px;
+  /* padding-left: 4px; */
+}
+
+nav .nav-xin ul li a .ico-qiandao {
+  width: 15px;
+  height: 18px;
+  background: url(/images/header_sign-hash-0459d02c.gif)no-repeat;
+  display: inline-block;
+  padding-right: 4px;
+}
+
+nav .nav-xin ul li a .ico-shouj {
+  width: 10px;
+  height: 14px;
+  background: url(/images/index-jin.png);
+  background-position: -294px -142px;
+  display: inline-block;
+  padding-right: 3px;
+  margin-top: 2px;
+}
+
+header {
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%);
+}
+
+.index-logo {
+  width: 100%;
+  height: 100px;
+}
+
+.index-logo .logo {
+  width: 1000px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  position: relative;
+}
+
+.index-logo .logo .c-logo {
+  width: 160px;
+  height: 100px;
+  float: left;
+  margin-left: -20px;
+}
+
+.index-logo .logo .c-logo img {
+  width: 160px;
+  height: 100px;
+}
+
+.index-logo .logo .baozhen {
+  width: 304px;
+  height: 100px;
+  float: left;
+}
+
+.index-logo .logo .baozhen .ico-zhenp {
+  background: url(/images/index-jin.png);
+  background-position: 1px -5px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.index-logo .logo .baozhen .ico-miany {
+  background: url(/images/index-jin.png);
+  background-position: -100px -5px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.index-logo .logo .baozhen .ico-tuih {
+  background: url(/images/index-jin.png);
+  background-position: -200px -4px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.index-logo .logo .search {
+  margin-left: 30px;
+  float: left;
+  width: 391px;
+  height: 60px;
+  margin-top: 33px;
+}
+
+.index-logo .logo .search .index-search {
+  width: 388px;
+  height: 36px;
+  border: 2px solid #fa2a83;
+  float: left;
+}
+
+.index-logo .logo .search .index-search .input-search {
+  border: none;
+  width: 307px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #333;
+  height: 28px;
+  padding: 2px 12px;
+  outline: none;
+  float: left;
+}
+
+.index-logo .logo .search .index-search .btn {
+  width: 53px;
+  height: 32px;
+  float: right;
+  border: none;
+  position: relative;
+  background: #fa2a83
+}
+
+.index-logo .logo .search .index-search .btn span {
+  background: url(/images/index-jin.png)1px 1px;
+  background-position: -285px -104px;
+  width: 19px;
+  height: 22px;
+  position: absolute;
+  display: block;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.search .index-lei {
+  float: left;
+}
+
+.search .index-lei ul {
+  float: left;
+}
+
+.search .index-lei ul li {
+  float: left;
+}
+
+.search .index-lei ul li a {
+  font-size: 12px;
+  padding-left: 6px;
+  color: #999999;
+}
+
+.search .index-lei ul span {
+  width: 1px;
+  float: left;
+  height: 14px;
+  margin-top: 5px;
+  background-color: #ccd0db;
+  display: block;
+  margin-left: 7px;
+}
+
+.index-shopping {
+  float: right;
+  width: 96px;
+  height: 34px;
+  margin-top: 33px;
+  /* border: 1px solid #cccccc; */
+}
+
+.index-shopping .btn-shopping {
+  width: 96px;
+  height: 34px;
+  position: relative;
+  border: 1px solid #cccccc;
+  z-index: 1;
+}
+
+.index-shopping .btn-shopping .gwc-shu {
+  position: absolute;
+  top: 8px;
+  right: 2px;
+  /* z-index: 1; */
+  border-radius: 8px;
+  height: 16px;
+  width: 24px;
+  background-color: #f00581;
+}
+
+.index-shopping .btn-shopping .gwc-shu .g-shu {
+  color: #fff;
+  line-height: 16px;
+  z-index: 1;
+  text-align: center;
+}
+
+.index-shopping .btn-shopping .index-bag {
+  width: 12px;
+  background: url(/images/index-jin.png);
+  background-position: 0 -208px;
+  position: absolute;
+  left: 8px;
+  z-index: 1;
+  top: 8px;
+  margin: auto;
+  height: 17px;
+}
+
+.index-nav {
+  width: 100%;
+  height: 43px;
+  position: relative;
+}
+
+.index-nav .index-navx {
+  width: 1000px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+}
+
+.index-nav .index-navx .nav-fix {
+  text-align: center;
+  height: 43px;
+  width: 1000px;
+
+}
+
+/* 粘性定位 */
+.index-nav .index-navx .nav-fixd {
+  transition: .3s linear;
+  top: 0;
+  transform: translateZ(0);
+  box-shadow: 0 1px 3px 0 #a7a7a7;
+  position: fixed;
+}
+
+.index-nav .index-navx ul {
+  float: left;
+  height: 43px;
+  width: 100%;
+
+}
+
+.index-nav .index-navx ul li {
+  float: left;
+  margin-left: 13px;
+  margin-right: 8px;
+  height: 43px;
+}
+
+.index-nav .index-navx ul li a {
+  font-size: 17px;
+  line-height: 43px;
+  text-align: center;
+}
+
+.index-nav .index-navx ul li:nth-child(1) {
+  padding: 0 10px;
+  background-color: #f10180;
+  margin-right: 25px;
+  width: 156px;
+  margin-left: 0px;
+}
+
+.index-nav .index-navx .xiala .tuijian a {
+  font-weight: 600;
+  color: #f10180;
+}
+
+.index-nav .index-navx ul li a:hover {
+  color: #f1010c;
+}
+
+.index-nav .index-navx ul li:nth-child(1) a {
+  color: #fff;
+}
+
+.xiala li .hunlei .henlei {
+  width: 156px;
+  height: 630px;
+  background-color: #f10180;
+  margin-left: -10px;
+  position: relative;
+  display: none;
+}
+
+.xiala li .hunlei .henlei li {
+  width: 100%;
+  height: 60px;
+  margin-left: 0px;
+  padding: 0px 10px;
+  margin: auto;
+  position: relative;
+}
+
+.xiala li .hunlei .henlei li:nth-child(1):hover {
+  background: #fff;
+}
+
+.xiala li .hunlei .henlei li:nth-child(1):hover a {
+  color: #f00581;
+}
+
+.xiala li .hunlei .henlei li a {
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 22px;
+  float: left;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+}
+
+/* .xiala li .hunlei .henlei li:nth-child(1) a{
+  font-size: 18px;
+  text-align: center;
+  width: 72%;
+  height: 100%;
+} */
+.rrlk {
+  position: absolute;
+  width: 844px;
+  left: 156px;
+  height: 630px;
+  margin: auto;
+  display: none;
+}
+
+.rrlk .meiy {
+  width: 655px;
+  height: 630px;
+  float: left;
+  background: #fff;
+  overflow-y: scroll;
+}
+
+.rrlk .meiy dl {
+  float: left;
+  width: 620px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.rrlk .meiy dl dt {
+  float: left;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 35px;
+  width: 60px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.rrlk .meiy dl .fff {
+  overflow: hidden;
+  left: 142px;
+  width: 478px;
+  line-height: 20px;
+}
+
+.rrlk .meiy dl dd {
+  float: left;
+  font-size: 14px;
+  margin-left: 15px;
+  color: #666666;
+  line-height: 20px;
+}
+
+.rrlk .meiy dl dd:hover {
+  color: #f10180;
+  cursor: pointer;
+}
+
+.rrlk .pingp {
+  width: 189px;
+  float: left;
+  height: 100%;
+  background: #f5f5f5;
+  position: relative;
+}
+
+.hunlei .rrlk .meiy .fud {
+  overflow: hidden;
+  margin-top: 25px;
+}
+
+.pingp p {
+  float: left;
+  font-size: 14px;
+  padding: 10px 10px;
+}
+
+.pingp .pingp-logo {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+
+  left: 13px;
+  top: 36px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.pingp .pingp-logo .logo1 {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+}
+
+.pingp .pingp-logo .logo1 img {
+  margin: auto;
+  margin-top: 8px;
+  width: 47px;
+  height: 25px;
+}
+
+.pingp .pingp-logo .logo1 i {
+  font-style: normal;
+  font-size: 12px;
+  display: inline-block;
+}
+
+main {
+  height: 3000px;
+  width: 100%;
+  position: relative;
+  background-size: 1650px 400px;
+  background-position: center top;
+}
+
+main .FW .goods {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 40px;
+  padding-top: 22px;
+  z-index: 10;
+  min-height: 580px;
+}
+
+main .FW .goods .png {
+  float: left;
+  position: relative;
+}
+
+.goods .png .img {
+  margin: 0;
+  padding: 0;
+}
+
+.goods .png .img .bigimg {
+  float: left;
+  position: relative;
+  z-index: 99;
+  cursor: crosshair;
+  width: 420px;
+  height: 420px;
+  overflow: hidden;
+}
+
+img {
+  width: 1200px;
+  height: 1200px;
+  position: absolute;
+  display: none;
+  left: 0;
+  top: 0;
+}
+
+.goods .png .img .icon {
+  background: url(/images/sp-jinl.png)no-repeat;
+  background-position: -162px -234px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  z-index: 999;
+}
+
+.png .img .bigimg .l1 {
+  /* display: none; */
+  width: 420px;
+  height: 420px;
+  left: 0;
+  top: 0;
+}
+
+.png .img .bigimg .l2 {
+  display: none;
+  width: 420px;
+  height: 420px;
+}
+
+.png .img .bigimg .l3 {
+  display: none;
+  width: 420px;
+  height: 420px;
+}
+
+.png .img .bigimg .l4 {
+  display: none;
+  width: 420px;
+  height: 420px;
+}
+
+.png .img .litleimg {
+  position: relative;
+  height: 64px;
+}
+
+.png .img .litleimg .jsimg {
+  width: 385px !important;
+  overflow: hidden;
+  height: 75px;
+  margin-left: 35px;
+  display: block;
+  padding-top: 10px;
+}
+
+.img .litleimg .jsimg .jimg {
+  position: absolute;
+  width: 426px;
+  left: 35px;
+  height: 64px;
+}
+
+.jsimg .jimg div {
+  width: 62px;
+  height: 62px;
+  float: left;
+  margin: 0 7px 0 0;
+}
+
+.jsimg .jimg div img {
+  height: 62px;
+  width: 62px;
+  margin-top: 2px;
+  margin-left: 5px;
+  display: block;
+  position: relative;
+}
+
+.jsimg .jimg div:hover img {
+  border: 1px solid #f1010c;
+}
+
+.jsimg span {
+  width: 29px;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  font-size: 20px;
+  color: #d8d8d8;
+  background: rgba(0, 0, 0, .2);
+  cursor: not-allowed;
+  display: block;
+  position: absolute;
+  margin: auto;
+}
+
+.jsimg .left {
+  left: 0;
+}
+
+.jsimg .right {
+  right: 0;
+}
+
+.jsimg .right:hover {
+  background: rgba(0, 0, 0, .5);
+}
+
+.jsimg a {
+  color: #fff;
+}
+
+main .FW .goods .bianma {
+  position: absolute;
+  padding: 6px 0;
+  border-bottom: 1px #e2e2e2 dashed;
+  width: 420px;
+  height: 42px;
+  bottom: 12px;
+}
+
+main .FW .goods .bianma p {
+  color: #999;
+  line-height: 20px;
+  display: inline-block;
+  *zoom: 1;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 200px;
+}
+
+main .FW .goods .bianma .onsel {
+  line-height: 16px;
+  cursor: pointer;
+  width: 100px;
+  padding: 1px 0 1px 2px;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 18px;
+  vertical-align: top;
+}
+
+main .FW .goods .bianma .icon-xin {
+  background: url(/images/sp-jinl.png);
+  background-position: -187px -170px;
+  width: 16px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 5px;
+  float: left;
+  vertical-align: top;
+}
+
+main .FW .goods .bianma .onsel .shouchang {
+  line-height: 16px;
+  cursor: pointer;
+  float: left;
+  display: inline-block;
+  width: 70px;
+  height: 16px;
+  font-size: 13px;
+  z-index: 99;
+  margin-top: 1px;
+  position: relative;
+
+}
+
+main .FW .goods .bianma .fenxd {
+  padding: 0 9px;
+  height: 22px;
+  line-height: 22px;
+  padding: 0 9px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 0;
+  display: inline-block;
+  background: #fafafa;
+  border: solid 1px #c2c2c2;
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+  width: 100px;
+  transition: border .3s;
+  float: right;
+  position: relative;
+}
+
+main .FW .goods .bianma .fenxd .index-fx {
+
+  display: inline-block;
+  width: 15px;
+  height: 12px;
+  margin-right: 4px;
+  background: url(/images/share-sef3db69c23.png)no-repeat;
+  position: absolute;
+  background-position: -16px -19px;
+  top: 3px;
+}
+
+main .FW .goods .bianma .fenxd p {
+  font-size: 12px;
+  height: 22px;
+  line-height: 22px;
+  display: inline-block;
+  position: absolute;
+  left: 28px;
+}
+
+main .FW .goods .bianma .fenxd .indeX {
+  border: solid 3px transparent;
+  border-top-color: #999;
+  margin-left: 2px;
+  top: 8px;
+  right: -63px;
+  margin: auto;
+  display: inline-block;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  padding: 12px 0;
+  border-bottom: 1px #e2e2e2 dashed;
+}
+
+main .FW .goods .kuan {
+  padding: 15px 0;
+  overflow: hidden;
+  position: absolute;
+  width: 420px;
+  bottom: -24px;
+}
+
+main .FW .goods .kuan img {
+  width: 420px;
+  display: block;
+  height: 36px;
+}
+
+main .FW .goods .goods-left {
+  width: 420px;
+  height: 560px;
+  position: relative;
+  float: left;
+}
+
+main .FW .goods .goods-right {
+  float: right;
+  width: 550px;
+  position: relative;
+  z-index: 100;
+  min-height: 634px;
+  margin-left: 20px;
+}
+
+main .FW .goods .goods-right .hxwph {
+  width: 100%;
+  height: 538px;
+}
+
+main .FW .goods .goods-right .obx {
+  width: 100%;
+  height: 130px;
+}
+
+main .FW .goods .goods-right .hxwph .pib-title {
+  color: #4d4d4d;
+  margin-bottom: 10px;
+  clear: both;
+}
+
+main .FW .goods .goods-right .hxwph .pib-title a {
+  display: block;
+  color: #007cff;
+  width: 340px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 22px;
+  min-height: 22px;
+}
+
+main .FW .goods .goods-right .hxwph .pib-title a:hover {
+  color: #f00581;
+}
+
+main .FW .goods .goods-right .hxwph .pib-title p {
+  font-size: 16px;
+  color: #333;
+  max-height: 40px;
+  overflow: hidden;
+  line-height: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+main .FW .goods .goods-right .hxwph .clearfix {
+  width: 550px;
+  height: 94px;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+main .FW .goods .goods-right .hxwph .clearfix .bgimg {
+  width: 550px;
+  height: 94px;
+  display: block;
+  position: absolute;
+}
+
+main .FW .goods .goods-right .hxwph .clearfix .spce {
+  color: #fff;
+  height: 94px;
+  width: 550px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+main .FW .goods .goods-right .hxwph .clearfix .spce .info {
+  float: left;
+  height: 94px;
+  position: relative;
+  overflow: hidden;
+  max-width: 330px;
+  min-width: 200px;
+  color: #fff;
+}
+
+main .FW .goods .goods-right .hxwph .clearfix .spce .info .price-line {
+  position: relative;
+  margin-top: 16px;
+  height: 30px;
+  width: 199px;
+}
+
+main .FW .goods .goods-right .hxwph .clearfix .spce .info .price-line .pbox-yen {
+  font-size: 24px;
+  font-family: arial;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  font-family: arial;
+  font-style: normal;
+  z-index: 9;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.hxwph .clearfix .spce .info .price-line .sp {
+  margin-right: 3px;
+  align-items: baseline;
+  font-size: 38px;
+  font-family: arial;
+  max-width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -webkit-box-align: baseline;
+}
+
+.hxwph .clearfix .spce .info .price-line .market {
+  margin-right: 4px;
+}
+
+.hxwph .clearfix .spce .time {
+  position: relative;
+  right: 10px;
+  width: 180px;
+  height: 94px;
+  float: right;
+}
+
+.hxwph .clearfix .spce .time .icon-div {
+  text-align: right;
+  position: relative;
+  width: 180px;
+  height: 24px;
+  margin-top: 8px;
+  margin-right: 0;
+}
+
+.hxwph .clearfix .spce .time .icon-div .qjhx {
+  z-index: 10000;
+  height: 24px;
+  width: 100px;
+  display: block;
+  margin-top: 25px;
+  float: right;
+  margin-left: 84px;
+}
+
+.hxwph .delive .addres {
+  position: relative;
+  width: 550px;
+  height: 32px;
+}
+
+.hxwph .delive .addres .addres-name {
+  float: left;
+  font-size: 12px;
+  width: 40px;
+  text-align: left;
+  color: #999;
+  line-height: 32px;
+  overflow: hidden;
+}
+
+.hxwph .delive .addres .addres-box {
+  float: left;
+  width: 250px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: #fff;
+  position: relative;
+  height: 30px;
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.hxwph .delive .addres .addres-tips {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 35px 0 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.hxwph .delive .addres .addres-up {
+  position: absolute;
+  right: 10px;
+  top: 4px;
+  width: 16px;
+  height: 24px;
+  color: #b3b3b3;
+  background: url(/images/sprites-hash-29a8cdc6.png)no-repeat;
+  background-position: -562px -231px;
+}
+
+.hxwph .delive .message {
+  color: #666;
+  margin-left: 40px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.hxwph .delive .message .xuanz {
+  font-size: 12px;
+}
+
+.hxwph .delive .firght {
+  position: relative;
+  z-index: 14;
+  margin-top: 5px;
+  line-height: 32px;
+}
+
+.hxwph .delive .firght .yfei {
+  float: left;
+  font-size: 12px;
+  width: 40px;
+  text-align: left;
+  color: #999;
+  line-height: 32px;
+  overflow: hidden;
+}
+
+.hxwph .delive .firght .firght-tips {
+  position: relative;
+  z-index: 14;
+  margin-top: 5px;
+  line-height: 32px;
+  font-size: 13px;
+}
+
+.hxwph .delive .i-size {
+  padding: 12px 11px 0;
+  position: relative;
+  z-index: 11;
+  margin-left: -11px;
+  zoom: 1;
+  min-height: 40px;
+}
+
+.hxwph .delive .i-size .size-name {
+  float: left;
+  font-size: 12px;
+  width: 40px;
+  text-align: left;
+  color: #999;
+  line-height: 32px;
+  overflow: hidden;
+}
+
+.hxwph .delive .clears {
+  padding: 0 10px;
+}
+
+.hxwph .delive .clears .clee {
+  border: 2px solid #f43499;
+  text-align: center;
+  line-height: 26px;
+  margin: -22px 10px 10px 48px;
+  width: 80px;
+  cursor: pointer;
+  height: 26px;
+  padding: 0 20px;
+  max-width: 356px;
+  min-width: 28px;
+  position: relative;
+
+}
+
+.hxwph .delive .clears .clee .liguan {
+  float: left;
+  position: relative;
+  min-width: 30px;
+  max-width: 358px;
+  width: 52px;
+  height: 22px;
+  font-size: 12px;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 26px;
+  cursor: pointer;
+  background-color: #fff;
+  margin-left: -7px;
+}
+
+.hxwph .delive .clears .clee .goux {
+  background-image: url(/images/sp-jinl.png);
+  background-position: -144px -170px;
+  width: 17px;
+  height: 16px;
+  bottom: -1px;
+  right: -1px;
+  display: block;
+  position: absolute;
+}
+
+.hxwph .delive .clear-select {
+  padding: 11px 10px;
+  position: relative;
+  height: 30px;
+  margin: -1px 0 0 -10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.hxwph .delive .clear-select .num-name {
+  float: left;
+  font-size: 12px;
+  width: 40px;
+  text-align: left;
+  color: #999;
+  line-height: 32px;
+  overflow: hidden;
+  position: absolute;
+  left: 10px;
+  top: 40px;
+}
+
+.hxwph .delive .clear-select .ui-box {
+  position: absolute;
+  left: 46px;
+  top: 46px;
+  height: 30px;
+  border: 1px solid #b3b3b3;
+  width: 75px;
+}
+
+.hxwph .delive .clear-select .ui-box .dels {
+  float: left;
+  height: 28px;
+  line-height: 28px;
+}
+
+.hxwph .delive .clear-select .ui-box a {
+  width: 15px;
+  height: 100%;
+  line-height: 22px;
+  font-size: 15px;
+  padding-left: 6px;
+  color: #7d7c7c;
+  background-color: #f9f8f8;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+.hxwph .delive .clear-select .ui-box .numb {
+  position: relative;
+  height: 27px;
+  border: 1px solid #b3b3b3;
+  border-left: 1px solid #e4e3e3;
+  border-right: 1px solid #e4e3e3;
+  overflow: hidden;
+  line-height: 28px;
+  font-style: normal;
+  display: inline-block;
+  float: left;
+  width: 19px;
+  padding-left: 10px;
+}
+
+.hxwph .delive .clear-select .ui-box .add {
+  height: 28px;
+  float: left;
+  line-height: 28px;
+}
+
+.hxwph .delive .i-btn {
+  margin-bottom: 12px;
+  margin-left: 40px;
+  margin-top: 60px;
+  width: 510px;
+  height: 46px;
+  position: relative;
+}
+
+.hxwph .delive .i-btn .addshopp {
+  width: 252px;
+  border: 0;
+  padding: 0;
+}
+
+.hxwph .delive .i-btn .addshopp .yuanj {
+  width: 113px;
+  float: left;
+  text-align: center;
+  height: 46px;
+  background: #f688a4;
+}
+
+.hxwph .delive .i-btn .addshopp .yuanj del {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 46px;
+  text-align: center;
+}
+
+.hxwph .delive .i-btn .addshopp .huod {
+  width: 139px;
+  float: left;
+  height: 46px;
+  background: #f03867;
+}
+
+.hxwph .delive .i-btn .addshopp .huod .tejia {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  display: block;
+  padding-top: 0;
+}
+
+.hxwph .delive .i-btn .addshopp .huod .tejiaq {
+  color: #fff;
+
+}
